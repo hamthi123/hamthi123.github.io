@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+.<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -62,7 +62,7 @@
       <div class="eyebrow"><span class="dot"></span> Software Engineering Student</div>
       <h1>Hi, I'm<br><span class="gradient">Hamthi Ahamed.</span></h1>
       <p>I’m an aspiring software engineer interested in building useful, user-friendly web applications and exploring how technology can solve real-world problems.</p>
-      <div class="actions"><a class="btn primary" href="#projects">Explore My Projects ↗</a><a class="btn" href="#contact">Get In Touch</a></div>
+      <div class="actions"> <a class="btn primary" href="#projects">Explore My Projects ↗</a> <a class="btn" href="#contact">Get In Touch</a> <a class="btn" href="Hamthi%20CV%20Resume.pdf" download>Download My CV ↓</a> </div>
     </div>
     <div class="portrait-wrap reveal">
       <img class="portrait" src="assets/profile.jpg" alt="Professional portrait of Hamthi Ahamed">
@@ -117,7 +117,7 @@
   navlinks.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>navlinks.classList.remove('open')));
   document.getElementById('year').textContent=new Date().getFullYear();
   const observer=new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('visible');observer.unobserve(entry.target)}}),{threshold:.12});
-  document.querySelectorAll('.reveal').forEach(el=>observer.observe(el));
+  document.querySelectorAll('.reveal').forEach(el=>observerobserve(el));
 </script>
 </body>
 </html>
